@@ -1,0 +1,211 @@
+#slidertext{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color:  rgba(75, 75, 75, 0.37);
+}
+
+#slidertext2{
+    padding: 50px;
+    background-color:  rgba(180, 180, 180, 0.644);
+}
+
+#down {
+    display: none;
+}
+
+.section2 {
+    position: relative;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+#subinput {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+textarea {
+	width: 100%;
+	max-width: 400px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+#declari{
+	width: 150px;
+}
+
+@media only screen and (max-width: 992px) {
+    #right {
+      display: none;
+    }
+    #down {
+        display: inline;
+    }
+    #pdi {
+        display: inline;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    #pdi {
+      display: none;
+    }
+}
+
+.subcontain {	
+	width: 300px;
+	height: 200px;
+	margin: auto;
+}
+
+.login_bar {
+	width: 300px;
+	height: 50px;
+	background: white;
+	border-radius: 10px;
+
+	position: relative;
+
+	overflow: hidden;
+}
+
+.login {
+	background: transparent;
+	position: absolute;
+	height: 100%;
+	width: 190px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	z-index: 10;
+	-webkit-transition: transform 0.2s ease-in-out 0s;
+	   -moz-transition: transform 0.2s ease-in-out 0s;
+	     -o-transition: transform 0.2s ease-in-out 0s;
+	        transition: transform 0.2s ease-in-out 0s;
+}
+
+.login_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.subscribe_button:hover{
+	background-color: #222A33;
+	cursor:pointer;
+}
+
+.subscribe_button {
+	background: #171D23;
+	position: absolute;
+	top: -50px;
+	left: 200px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 150px;
+	width: 100px;
+	text-align: center;
+	line-height: 150px;
+	vertical-align: middle;	
+	color: white;
+	-webkit-transition: transform 0.5s ease 0s;
+	   -moz-transition: transform 0.5s ease 0s;
+	     -o-transition: transform 0.5s ease 0s;
+	        transition: transform 0.5s ease 0s;
+}
+
+.subscribe_button_active{
+	-webkit-transform: translateY(50px);
+	   -moz-transform: translateY(50px);
+	    -ms-transform: translateY(50px);
+	     -o-transform: translateY(50px);
+	        transform: translateY(50px);
+}
+
+.subscribing{
+	background: #CDD4DC;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	position: absolute;
+	left:-300px;
+	display: inline-block;
+	-webkit-transition: transform 1s ease 0s ;
+	   -moz-transition: transform 1s ease 0s ;
+	     -o-transition: transform 1s ease 0s ;
+	        transition: transform 1s ease 0s ;
+}
+
+.subscribing_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.thanks{
+	background: transparent;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+    text-align: left;
+    color: black;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 10px;
+	position: absolute;
+	top:50px;
+	display: inline-block;
+	-webkit-transition: transform 0.5s ease 0s ;
+	   -moz-transition: transform 0.5s ease 0s ;
+	     -o-transition: transform 0.5s ease 0s ;
+	        transition: transform 0.5s ease 0s ;
+}
+
+.thanks_active {
+	-webkit-transform: translateY(-50px);
+	   -moz-transform: translateY(-50px);
+	    -ms-transform: translateY(-50px);
+	     -o-transform: translateY(-50px);
+	        transform: translateY(-50px);
+}
+
+.wrong{
+	background: transparent;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+    text-align: left;
+    color: black;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 10px;
+	position: absolute;
+	top:50px;
+	display: inline-block;
+	-webkit-transition: transform 0.5s ease 0s ;
+	   -moz-transition: transform 0.5s ease 0s ;
+	     -o-transition: transform 0.5s ease 0s ;
+	        transition: transform 0.5s ease 0s ;
+}
+
+.wrong_active {
+	-webkit-transform: translateY(-50px);
+	   -moz-transform: translateY(-50px);
+	    -ms-transform: translateY(-50px);
+	     -o-transform: translateY(-50px);
+	        transform: translateY(-50px);
+}
+
+  
+  
